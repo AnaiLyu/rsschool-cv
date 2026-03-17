@@ -62,7 +62,7 @@ Work on projects during training:
 
 * [Random Quotes](https://anailyu.github.io/random_quotes/). A web app that generates random quotes. Users can save quotes to favorites, remove them, and switch to dark mode. Built with vanilla JavaScript
 
-* Website [created on the html5/css3 tutorial. There is a mobile version for the screen 576px and 1920px for desktop.](https://anailyu.github.io/HTML5/new/) The site is entirely built on flexbox.
+* [Website created on the html5/css3 tutorial.](https://anailyu.github.io/HTML5/new/) There is a mobile version for the screen 576px and 1920px for desktop. The site is entirely built on flexbox.
 
 ***
 ## Education

@@ -5,11 +5,11 @@
 ***
 ## Contacts
 
-* E-mail:
-* Phone:
+* E-mail: lyuanai88@gmail.com
+* Phone: +30 6957971721
 * GitHub: Anailyu
-* Telegram:
-* Discord:
+* Telegram: @liana2221
+* Discord: liana2221
 
 ***
 ## About me
@@ -30,24 +30,24 @@
 
 The function that determines the second largest number
 ```
+const secondMaxNum = (arr) => {
+    const numLength = arr.length;
+    let max = arr[0];
+    let secondMax = 0;
 
+    for (let i = 0; i < numLength; i++) {
+      if (max < arr[i]) {
+        max = arr[i];
+      }
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    for (let i = 0; i < numLength; i++) {
+      if (max > arr[i] && secondMax < arr[i]) {
+        secondMax = arr[i];
+      }
+    }
+    return secondMax;
+  }
 
 ```
 
@@ -56,19 +56,19 @@ The function that determines the second largest number
 
 Work on projects during training:
 
-*
+* [Cozy House. Shelter for pets](https://rolling-scopes-school.github.io/anailyu-JSFEPRESCHOOL2024Q2/shelter/pages/main.html). Responsive for mobile devices from 320px, for tablet and for desktop 1280px.
 
-*
+* [Brooklyn Public Library](https://rolling-scopes-school.github.io/anailyu-JSFEPRESCHOOL2023Q2/library/). Responsive for tablet devices 768px and for desktop 1440px.
 
-*
+* [Random Quotes](https://anailyu.github.io/random_quotes/). A web app that generates random quotes. Users can save quotes to favorites, remove them, and switch to dark mode. Built with vanilla JavaScript
 
-*
+* Website [created on the html5/css3 tutorial. There is a mobile version for the screen 576px and 1920px for desktop.](https://anailyu.github.io/HTML5/new/) The site is entirely built on flexbox.
 
 ***
 ## Education
 
 * RS Schools Course "JavaScript/Front-end" (in progress)
-*
+* gb.ru Frontend developer (in progress)
 * [Full course 11 hours JavaScript](https://youtu.be/CxgOKJh4zWE) for beginners
 
 ***

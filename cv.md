@@ -1,4 +1,4 @@
-![Avatar](https://avatars.githubusercontent.com/u/39538239?v=4)
+![Avatar](/ava-anai.png)
 
 # Anai Lyu
 

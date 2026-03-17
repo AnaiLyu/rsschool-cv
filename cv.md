@@ -1,4 +1,4 @@
-
+<img src="https://avatars.githubusercontent.com/u/39538239?v=4" width="30%" alt="Avatar">
 
 # ANAI LYU
 
@@ -7,14 +7,14 @@
 
 * E-mail:
 * Phone:
-* GitHub:
+* GitHub: Anailyu
 * Telegram:
 * Discord:
 
 ***
 ## About me
 
-I strive to be part of a friendly and professional team where I could develop my Frontend development skills to achieve team results.
+> I strive to be part of a friendly and professional team where I could develop my Frontend development skills to achieve team results.
 
 ***
 ## Skills
@@ -22,7 +22,7 @@ I strive to be part of a friendly and professional team where I could develop my
 * HTML5
 * CSS3
 * JavaScript
-* Git
+* Git, GitHub
 * VS Code, Sublime Text
 
 ***

@@ -1,6 +1,6 @@
-<img src="https://avatars.githubusercontent.com/u/39538239?v=4" width="30%" alt="Avatar">
+![Avatar](https://avatars.githubusercontent.com/u/39538239?v=4)
 
-# ANAI LYU
+# Anai Lyu
 
 ***
 ## Contacts

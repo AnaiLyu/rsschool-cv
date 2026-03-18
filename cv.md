@@ -14,7 +14,7 @@
 ***
 ## About me
 
-> I strive to be part of a friendly and professional team where I could develop my Frontend development skills to achieve team results.
+> I strive to be part of a friendly and professional team where I can develop my frontend development skills and contribute to achieving team goals.
 
 ***
 ## Skills
@@ -52,9 +52,9 @@ const secondMaxNum = (arr) => {
 ```
 
 ***
-## Expirience
+## Experience
 
-Work on projects during training:
+Projects completed during training:
 
 * [Cozy House. Shelter for pets](https://rolling-scopes-school.github.io/anailyu-JSFEPRESCHOOL2024Q2/shelter/pages/main.html). Responsive for mobile devices from 320px, for tablet and for desktop 1280px.
 
@@ -67,9 +67,10 @@ Work on projects during training:
 ***
 ## Education
 
-* RS Schools Course "JavaScript/Front-end" (in progress)
-* gb.ru Frontend developer (in progress)
+* RS Schools Course "JavaScript/Front-End" (in progress)
+* gb.ru FrontEnd developer (in progress)
 * [Full course 11 hours JavaScript](https://youtu.be/CxgOKJh4zWE) for beginners
+* JavaScript – 130h Web Development Masterclass (React and Node.js, in progress)
 
 ***
 ## Languages

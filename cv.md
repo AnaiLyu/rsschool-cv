@@ -21,9 +21,11 @@
 
 * HTML5
 * CSS3
-* JavaScript
+* SASS, SCSS (basic)
+* JavaScript (basic)
 * Git, GitHub
 * VS Code, Sublime Text
+* Figma
 
 ***
 ## Code Example

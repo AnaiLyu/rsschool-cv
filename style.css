@@ -1,3 +1,4 @@
+/* root */
 *,
 *::after,
 *::before {
@@ -13,17 +14,28 @@ html {
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   margin: 0 auto;
+  max-width: 1024px;
+  min-height: 100vh;
   font-size: 1.6rem;
 }
 
-a,
 button {
   cursor: pointer;
 }
 
 a {
+  font-style: italic;
+  color: #e90;
+  cursor: pointer;
   text-decoration: none;
+}
+
+p {
+  color: #333;
 }
 
 ul {
@@ -32,4 +44,10 @@ ul {
 
 li {
   list-style-type: none;
+}
+
+/* Header */
+.header {
+  display: flex;
+  background-color: #444;
 }

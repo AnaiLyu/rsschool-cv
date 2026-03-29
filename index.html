@@ -125,14 +125,14 @@ const secondMaxNum = (arr) => {
   let max = arr[0];
   let secondMax = 0;
 
-  for (let i = 0; i < numLength; i++) {
-    if (max < arr[i]) {
+  for (let i = 0; i &lt; numLength; i++) {
+    if (max &lt; arr[i]) {
       max = arr[i];
     }
   }
 
-  for (let i = 0; i < numLength; i++) {
-    if (max > arr[i] && secondMax < arr[i]) {
+  for (let i = 0; i &lt; numLength; i++) {
+    if (max &gt; arr[i] && secondMax &lt; arr[i]) {
       secondMax = arr[i];
     }
   }

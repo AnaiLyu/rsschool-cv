@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>my CV</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="assets/favicon_io/site.webmanifest">
+</head>
+
+<body>
+  <header class="header">
+    <img src="ava-anai.png" alt="image avatar" class="foto-avatar">
+    <div class="header-content">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#about">About</a></li>
+          <li class="nav-item"><a href="#contacts">Contacts</a></li>
+          <li class="nav-item"><a href="#experiance">Experiance</a></li>
+          <li class="nav-item"><a href="#education">Education</a></li>
+          <li class="nav-item"><a href="#skills">Skills</a></li>
+          <li class="nav-item"><a href="#code">Code</a></li>
+          <li class="nav-item"><a href="#languages">Languages</a></li>
+          <li class="nav-item"><a href="#school">School</a></li>
+        </ul>
+      </nav>
+      <section class="profile">
+        <h1>Anai Lyu</h1>
+        <p>Trainee Front End Developer</p>
+      </section>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <section class="contacts" id="contacts">
+      <h2 class="heading-2">Contacts</h2>
+      <ul class="contacts-list">
+        <li class="contacts-item">
+          E-mail:
+          <a href="mailto:lyuanai88@gmail.com">lyuanai88@gmail.com</a>
+        </li>
+        <li class="contacts-item">
+          Phone:
+          <a href="tel:+306957179721">+30 695 797 1721</a>
+        </li>
+        <li class="contacts-item">
+          GitHub:
+          <a href="https://github.com/AnaiLyu/" target="_blank">AnaiLyu</a>
+        </li>
+        <li class="contacts-item">
+          Telegram:
+          <a href="https://t.me/liana2221" target="_blank">@liana2221</a>
+        </li>
+        <li class="contacts-item">
+          Discord:
+          <a href="https://discordapp.com/users/1081860389869989929" target="_blank">liana2221</a>
+        </li>
+      </ul>
+    </section>
+
+    <section class="about" id="about">
+      <h2 class="heading-2">About Me</h2>
+      <q>I strive to be part of a friendly and professional team where I can develop my frontend development skills and
+        contribute to achieving team goals.</q>
+    </section>
+
+    <section class="experiance" id="experiance">
+      <h2 class="heading-2">Experiance</h2>
+      <p>Projects completed during training:</p>
+      <p><a href="https://rolling-scopes-school.github.io/anailyu-JSFEPRESCHOOL2024Q2/shelter/pages/main.html">Cozy
+          House. Shelter for pets</a>. Responsive for mobile devices from 320px, for tablet and for
+        desktop 1280px.</p>
+      <p><a href="https://rolling-scopes-school.github.io/anailyu-JSFEPRESCHOOL2023Q2/library/">Brooklyn Public
+          Library</a>. Responsive for tablet devices 768px and for desktop 1440px.</p>
+      <p><a href="https://anailyu.github.io/random_quotes/">Random Quotes</a>. A web app that generates random quotes.
+        Users can save quotes to favorites, remove them, and switch to dark mode. Built with vanilla JavaScript</p>
+      <p><a href="https://anailyu.github.io/HTML5/new/">Website created on the html5/css3 tutorial</a>. There is a
+        mobile version for the screen 576px and 1920px for desktop. The site is entirely built on flexbox.</p>
+    </section>
+
+    <section class="skills" id="skills">
+      <h2 class="heading-2">Skills</h2>
+      <ul class="skills-list">
+        <li class="skills-item">HTML5</li>
+        <li class="skills-item">CSS3</li>
+        <li class="skills-item">SASS, SCSS &lpar;basic&rpar;</li>
+        <li class="skills-item">JavaScript &lpar;basic&rpar;</li>
+        <li class="skills-item">Git, GitHub</li>
+        <li class="skills-item">VS Code, Sublime Text</li>
+        <li class="skills-item">Figma</li>
+      </ul>
+    </section>
+
+    <section class="education" id="education">
+      <h2 class="heading-2">Education</h2>
+      <p>RS Schools Course “<a href="https://rs.school/courses/javascript">JavaScript/Front-End</a>” &lpar;in
+        progress&rpar;</p>
+      <p>gb.ru FrontEnd developer (in progress)</p>
+      <p>Full course 11 hours <a href="https://youtu.be/CxgOKJh4zWE">JavaScript</a> for beginners</p>
+      <p>JavaScript – 130h Web Development Masterclass (React and Node.js, in progress)
+      </p>
+    </section>
+
+    <section class="languages" id="languages">
+      <h2 class="heading-2">Languages</h2>
+      <ul class="lang-list">
+        <li class="lang-item">Ukrainian &lpar;native&rpar;</li>
+        <li class="lang-item">Russian &lpar;native&rpar;</li>
+        <li class="lang-item">Greek &lpar;intermediate&rpar;</li>
+        <li class="lang-item">English &lpar;A1&rpar;</li>
+      </ul>
+    </section>
+
+    <section class="code" id="code">
+      <h2 class="heading-2">Code Example</h2>
+      <p>The function that determines the second largest number</p>
+      <pre><code>
+const secondMaxNum = (arr) =&gt; {
+  const numLength = arr.length;
+  let max = arr[0];
+  let secondMax = 0;
+
+  for (let i = 0; i &lt; numLength; i++) {
+    if (max &lt; arr[i]) {
+      max = arr[i];
+    }
+  }
+
+  for (let i = 0; i &lt; numLength; i++) {
+    if (max &gt; arr[i] && secondMax &lt; arr[i]) {
+      secondMax = arr[i];
+    }
+  }
+  return secondMax;
+}
+    </code></pre>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span class="copy">&copy; 2026</span>
+    <a href="http://github.com/AnaiLyu/" target="_blank">AnaiLyu</a>
+    <a href="https://rs.school/" class="school-link" id="school">
+      <img src="rs-school-logo.svg" alt="RS School logo" class="footer-logo">
+    </a>
+  </footer>
+</body>
+
+</html>

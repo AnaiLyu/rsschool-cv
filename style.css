@@ -68,7 +68,8 @@ li {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  width: 800px;
+  padding: 10px;
+  padding-right: 20px;
 }
 
 .nav-list {
@@ -76,6 +77,8 @@ li {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  row-gap: 10px;
+  column-gap: 20px;
 }
 
 .nav-item a {
@@ -88,8 +91,8 @@ li {
   align-items: center;
 }
 
-.profile h2 {
-  font-size: 3rem;
+.profile h1 {
+  font-size: 2em;
 }
 
 .profile p {
